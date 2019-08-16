@@ -7,7 +7,7 @@ const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 const config: NuxtConfiguration = {
   srcDir: 'src',
 
-  // devModules: ['@nuxtjs/vuetify'],
+  devModules: ['@nuxtjs/vuetify'],
   // vuetify: {
   //   theme,
   //   customVariables: ['~/assets/css/variables.scss'],
