@@ -8,11 +8,11 @@ const config: NuxtConfiguration = {
   srcDir: 'src',
 
   devModules: ['@nuxtjs/vuetify'],
-  // vuetify: {
-  //   theme,
-  //   customVariables: ['~/assets/css/variables.scss'],
-  //   treeShake: true
-  // },
+  vuetify: {
+    // theme,
+    customVariables: ['~/assets/css/_variables.scss'],
+    treeShake: true
+  },
 
   build: {
     extend(config: WebpackConfiguration, { isDev, loaders }) {
