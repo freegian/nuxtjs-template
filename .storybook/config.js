@@ -1,8 +1,12 @@
 import { configure, addDecorator } from '@storybook/vue'
+import { withInfo } from 'storybook-addon-vue-info'
+import { withKnobs } from '@storybook/addon-knobs'
 
+addDecorator(withInfo)
+addDecorator(withKnobs)
 addDecorator(() => ({
   template: `
-<div><story/><div>
+<div><story/></div>
 `
 }))
 
